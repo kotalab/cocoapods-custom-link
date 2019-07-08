@@ -19,3 +19,12 @@ xcodebuild -project "$PODS_PROJECT" \
   -sdk iphonesimulator -configuration Release -alltargets \
   ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=NO SYMROOT="$SYMROOT" \
   CLANG_ENABLE_MODULE_DEBUGGING=NO | rbenv exec bundle exec xcpretty
+xcodebuild -project "$PODS_PROJECT" \
+  -sdk iphoneos -configuration Debug -alltargets \
+  ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=NO SYMROOT="$SYMROOT" \
+  CLANG_ENABLE_MODULE_DEBUGGING=NO \
+  BITCODE_GENERATION_MODE=bitcode | rbenv exec bundle exec xcpretty
+xcodebuild -project "$PODS_PROJECT" \
+  -sdk iphonesimulator -configuration Debug -alltargets \
+  ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=NO SYMROOT="$SYMROOT" \
+  CLANG_ENABLE_MODULE_DEBUGGING=NO | rbenv exec bundle exec xcpretty

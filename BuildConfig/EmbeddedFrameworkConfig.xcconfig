@@ -1,0 +1,17 @@
+//
+//  EmbeddedFrameworkConfig.xcconfig
+//  CocoapodsCustomLink
+//
+//  Created by tetsuya_kojima on 2019/07/08.
+//  Copyright © 2019 com.kotalab. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+PODS_ROOT = $(SRCROOT)/Pods
+PODS_CONFIGURATION_BUILD_DIR = $(PODS_ROOT)/Build/Release$(EFFECTIVE_PLATFORM_NAME)
+
+FRAMEWORK_SEARCH_PATHS = "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth" "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore" "${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher"  "${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities" "${PODS_ROOT}/FirebaseAuthInterop"
+HEADER_SEARCH_PATHS = "$(PODS_ROOT)/Firebase/CoreOnly/Sources"
+SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules"
+OTHER_LDFLAGS = -ObjC -framework "FirebaseAuth" -framework "FirebaseCore" -framework "GTMSessionFetcher" -framework "GoogleUtilities"
