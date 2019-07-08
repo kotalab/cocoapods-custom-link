@@ -1,0 +1,32 @@
+Firebase:
+  LABEL: Firebase
+  PROJECT_PATH: "/Users/tetsuya_kojima/develop/cocoapods-custom-link/Pods/Firebase.xcodeproj"
+  UUID: 15B99218A87324F316F0E937B3DAAC8B
+FirebaseAuth:
+  LABEL: FirebaseAuth
+  PROJECT_PATH: "/Users/tetsuya_kojima/develop/cocoapods-custom-link/Pods/FirebaseAuth.xcodeproj"
+  UUID: 778027BEB23AE53B0BE6A1F081647B14
+FirebaseAuthInterop:
+  LABEL: FirebaseAuthInterop
+  PROJECT_PATH: "/Users/tetsuya_kojima/develop/cocoapods-custom-link/Pods/FirebaseAuthInterop.xcodeproj"
+  UUID: 8F8CFC5ED06336C841B5BA0FE32CE60E
+FirebaseCore:
+  LABEL: FirebaseCore
+  PROJECT_PATH: "/Users/tetsuya_kojima/develop/cocoapods-custom-link/Pods/FirebaseCore.xcodeproj"
+  UUID: 4BD5DE1E00ED67A59118DB4A3CD5F288
+GoogleUtilities:
+  LABEL: GoogleUtilities
+  PROJECT_PATH: "/Users/tetsuya_kojima/develop/cocoapods-custom-link/Pods/GoogleUtilities.xcodeproj"
+  UUID: 80B861CBFC18436AFD9A3703F00CEEC4
+GTMSessionFetcher:
+  LABEL: GTMSessionFetcher
+  PROJECT_PATH: "/Users/tetsuya_kojima/develop/cocoapods-custom-link/Pods/GTMSessionFetcher.xcodeproj"
+  UUID: BD7A8A3BC22FD28DCB40568BE43D7C70
+Pods-CocoapodsCustomLink:
+  LABEL: Pods-CocoapodsCustomLink
+  PROJECT_PATH: "/Users/tetsuya_kojima/develop/cocoapods-custom-link/Pods/Pods.xcodeproj"
+  UUID: 9387EF5CBC8EDCF14DE5FC14892CFDD3
+Pods-EmbeddedFramework:
+  LABEL: Pods-EmbeddedFramework
+  PROJECT_PATH: "/Users/tetsuya_kojima/develop/cocoapods-custom-link/Pods/Pods.xcodeproj"
+  UUID: FE346D6BD293ECFCAF9AE208FD96A535

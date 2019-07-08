@@ -16,5 +16,5 @@ end
 target 'EmbeddedFramework' do
   use_frameworks!
 
-  'Firebase/Auth'
+  pod 'Firebase/Auth'
 end

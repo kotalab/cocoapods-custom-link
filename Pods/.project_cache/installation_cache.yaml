@@ -1,0 +1,54 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Firebase:
+    BUILD_SETTINGS_CHECKSUM:
+      Firebase: 43b7f595f46ac91e875576d2a4d1d3a8
+    CHECKSUM: 8432d732974498afd5987e9001a05f90f1a3d625
+    SPECS:
+      - Firebase/Auth (6.3.0)
+      - Firebase/CoreOnly (6.3.0)
+  FirebaseAuth:
+    BUILD_SETTINGS_CHECKSUM:
+      FirebaseAuth: 10d0fd1b3cd285f2ae771a31021562bc
+    CHECKSUM: 7fa2cc010b93770831a4e7a60651b52c3b8d111a
+    SPECS:
+      - FirebaseAuth (6.1.2)
+  FirebaseAuthInterop:
+    BUILD_SETTINGS_CHECKSUM:
+      FirebaseAuthInterop: e77f12c2b620d2e1d77bc0806584f979
+    CHECKSUM: 0ffa57668be100582bb7643d4fcb7615496c41fc
+    SPECS:
+      - FirebaseAuthInterop (1.0.0)
+  FirebaseCore:
+    BUILD_SETTINGS_CHECKSUM:
+      FirebaseCore: f43661db2d254a0cd39f7c7d9dc4156d
+    CHECKSUM: 68f8a7f50cdae542715d4e86afa37c4067217dcb
+    SPECS:
+      - FirebaseCore (6.0.3)
+  GoogleUtilities:
+    BUILD_SETTINGS_CHECKSUM:
+      GoogleUtilities: 29289a7d4a3bc1ed5d5540f0518c144c
+    CHECKSUM: c7a0b08bda3bf808be823ed151f0e28ac6866e71
+    SPECS:
+      - GoogleUtilities/AppDelegateSwizzler (6.2.1)
+      - GoogleUtilities/Environment (6.2.1)
+      - GoogleUtilities/Logger (6.2.1)
+      - GoogleUtilities/Network (6.2.1)
+      - "GoogleUtilities/NSData+zlib (6.2.1)"
+      - GoogleUtilities/Reachability (6.2.1)
+  GTMSessionFetcher:
+    BUILD_SETTINGS_CHECKSUM:
+      GTMSessionFetcher: fbad7f8a048dbadb85dec5973754e5d5
+    CHECKSUM: 61bb0f61a4cb560030f1222021178008a5727a23
+    SPECS:
+      - GTMSessionFetcher/Core (1.2.2)
+  Pods-CocoapodsCustomLink:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 9b1f6577268c4cc90d99d152946ddf6e
+      Release: 9b1f6577268c4cc90d99d152946ddf6e
+  Pods-EmbeddedFramework:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 9d97a2d769767de556399850d4866bad
+      Release: 9d97a2d769767de556399850d4866bad
