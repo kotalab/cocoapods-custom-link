@@ -11,7 +11,6 @@ if [ "$ACTION" = "install" ]; then
 fi
 
 echo 'Copying frameworks'
-
 if [ $SCRIPT_INPUT_FILE_LIST_COUNT -ne 0 ]; then
   for i in $(seq 0 $(expr $SCRIPT_INPUT_FILE_LIST_COUNT - 1)); do
     inputFileListVar="SCRIPT_INPUT_FILE_LIST_${i}"

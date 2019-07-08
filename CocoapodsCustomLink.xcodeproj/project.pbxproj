@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7474654822D2F6BF00E211D1 /* GoogleUtilities.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 7474654722D2F6BF00E211D1 /* GoogleUtilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7474654A22D2F6D500E211D1 /* GTMSessionFetcher.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 7474654922D2F6D500E211D1 /* GTMSessionFetcher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		74D9D9D522D2CE4100E831B9 /* EmbeddedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D9D9D322D2CE4100E831B9 /* EmbeddedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74D9D9D822D2CE4100E831B9 /* EmbeddedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D9D9D122D2CE4100E831B9 /* EmbeddedFramework.framework */; };
 		74D9D9D922D2CE4100E831B9 /* EmbeddedFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D9D9D122D2CE4100E831B9 /* EmbeddedFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -43,23 +41,10 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74D9D9F422D2EFF100E831B9 /* Copy Files */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7474654A22D2F6D500E211D1 /* GTMSessionFetcher.framework in Copy Files */,
-				7474654822D2F6BF00E211D1 /* GoogleUtilities.framework in Copy Files */,
-			);
-			name = "Copy Files";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7474654722D2F6BF00E211D1 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "Pods/Build/Release-iphonesimulator/GoogleUtilities/GoogleUtilities.framework"; sourceTree = "<group>"; };
-		7474654922D2F6D500E211D1 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "Pods/Build/Release-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
+		7478EC9822D34259001540D2 /* CopyFrameworkFileList.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = CopyFrameworkFileList.xcfilelist; sourceTree = "<group>"; };
 		74D9D9D122D2CE4100E831B9 /* EmbeddedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmbeddedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D9D9D322D2CE4100E831B9 /* EmbeddedFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedFramework.h; sourceTree = "<group>"; };
 		74D9D9D422D2CE4100E831B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,13 +62,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74D9D9CE22D2CE4100E831B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C22098AD22CF4D2800353FFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,6 +88,7 @@
 			children = (
 				74D9D9E322D2D09900E831B9 /* ApplicationConfig.xcconfig */,
 				74D9D9E422D2DB7800E831B9 /* EmbeddedFrameworkConfig.xcconfig */,
+				7478EC9822D34259001540D2 /* CopyFrameworkFileList.xcfilelist */,
 			);
 			path = BuildConfig;
 			sourceTree = "<group>";
@@ -117,8 +96,6 @@
 		C22098A722CF4D2800353FFC = {
 			isa = PBXGroup;
 			children = (
-				7474654922D2F6D500E211D1 /* GTMSessionFetcher.framework */,
-				7474654722D2F6BF00E211D1 /* GoogleUtilities.framework */,
 				74D9D9DF22D2D05900E831B9 /* BuildConfig */,
 				C22098B222CF4D2800353FFC /* CocoapodsCustomLink */,
 				74D9D9D222D2CE4100E831B9 /* EmbeddedFramework */,
@@ -177,10 +154,7 @@
 			buildPhases = (
 				74D9D9CC22D2CE4100E831B9 /* Headers */,
 				74D9D9CD22D2CE4100E831B9 /* Sources */,
-				74D9D9CE22D2CE4100E831B9 /* Frameworks */,
-				74D9D9CF22D2CE4100E831B9 /* Resources */,
-				74D9D9E722D2E65800E831B9 /* Copy Frameworks */,
-				74D9D9F422D2EFF100E831B9 /* Copy Files */,
+				74D9D9E722D2E65800E831B9 /* Copy Dynamic Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,13 +223,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		74D9D9CF22D2CE4100E831B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C22098AE22CF4D2800353FFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,23 +236,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		74D9D9E722D2E65800E831B9 /* Copy Frameworks */ = {
+		74D9D9E722D2E65800E831B9 /* Copy Dynamic Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"$(SRCROOT)/BuildConfig/CopyFrameworkFileList.xcfilelist",
 			);
 			inputPaths = (
+				"",
+				"",
 			);
-			name = "Copy Frameworks";
+			name = "Copy Dynamic Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./scripts/copy-frameworks.sh\n";
+			shellScript = "scripts/copy-frameworks.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -346,6 +316,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Build/Release-iphonesimulator/GoogleUtilities",
 					"$(PROJECT_DIR)/Pods/Build/Release-iphoneos/GoogleUtilities",
+					"$(PROJECT_DIR)/Pods/Build/Release-iphonesimulator",
 				);
 				INFOPLIST_FILE = EmbeddedFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -382,6 +353,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Build/Release-iphonesimulator/GoogleUtilities",
 					"$(PROJECT_DIR)/Pods/Build/Release-iphoneos/GoogleUtilities",
+					"$(PROJECT_DIR)/Pods/Build/Release-iphonesimulator",
 				);
 				INFOPLIST_FILE = EmbeddedFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
