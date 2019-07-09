@@ -154,7 +154,6 @@
 			buildPhases = (
 				74D9D9CC22D2CE4100E831B9 /* Headers */,
 				74D9D9CD22D2CE4100E831B9 /* Sources */,
-				74D9D9E722D2E65800E831B9 /* Copy Dynamic Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,6 +172,7 @@
 				C22098AD22CF4D2800353FFC /* Frameworks */,
 				C22098AE22CF4D2800353FFC /* Resources */,
 				747800A422D40ECD000F6CC0 /* Embed Frameworks */,
+				746B9C5422D462D5002C0F49 /* Copy Dynamic Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,7 +237,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		74D9D9E722D2E65800E831B9 /* Copy Dynamic Frameworks */ = {
+		746B9C5422D462D5002C0F49 /* Copy Dynamic Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,8 +246,6 @@
 				"$(SRCROOT)/BuildConfig/CopyFrameworkFileList.xcfilelist",
 			);
 			inputPaths = (
-				"",
-				"",
 			);
 			name = "Copy Dynamic Frameworks";
 			outputFileListPaths = (
