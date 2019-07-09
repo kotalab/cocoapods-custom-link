@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		746B9C5622D46E95002C0F49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746B9C5522D46E95002C0F49 /* ViewController.swift */; };
+		746B9C5822D46EA2002C0F49 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746B9C5722D46EA2002C0F49 /* Storyboard.storyboard */; };
+		747800A022D40ECD000F6CC0 /* EmbeddedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D9D9D122D2CE4100E831B9 /* EmbeddedFramework.framework */; };
+		747800A122D40ECD000F6CC0 /* EmbeddedFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D9D9D122D2CE4100E831B9 /* EmbeddedFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		74D9D9D522D2CE4100E831B9 /* EmbeddedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D9D9D322D2CE4100E831B9 /* EmbeddedFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74D9D9D822D2CE4100E831B9 /* EmbeddedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D9D9D122D2CE4100E831B9 /* EmbeddedFramework.framework */; };
-		74D9D9D922D2CE4100E831B9 /* EmbeddedFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74D9D9D122D2CE4100E831B9 /* EmbeddedFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		74D9D9E622D2E14A00E831B9 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9D9E522D2E14A00E831B9 /* Firebase.swift */; };
 		C22098B422CF4D2800353FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22098B322CF4D2800353FFC /* AppDelegate.swift */; };
-		C22098B622CF4D2800353FFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22098B522CF4D2800353FFC /* SceneDelegate.swift */; };
-		C22098B822CF4D2800353FFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22098B722CF4D2800353FFC /* ContentView.swift */; };
 		C22098BA22CF4D2900353FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22098B922CF4D2900353FFC /* Assets.xcassets */; };
 		C22098BD22CF4D2900353FFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22098BC22CF4D2900353FFC /* Preview Assets.xcassets */; };
 		C22098C022CF4D2900353FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22098BE22CF4D2900353FFC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		74D9D9D622D2CE4100E831B9 /* PBXContainerItemProxy */ = {
+		747800A222D40ECD000F6CC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C22098A822CF4D2800353FFC /* Project object */;
 			proxyType = 1;
@@ -30,13 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		74D9D9DA22D2CE4100E831B9 /* Embed Frameworks */ = {
+		747800A422D40ECD000F6CC0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				74D9D9D922D2CE4100E831B9 /* EmbeddedFramework.framework in Embed Frameworks */,
+				747800A122D40ECD000F6CC0 /* EmbeddedFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +44,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		746B9C5522D46E95002C0F49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		746B9C5722D46EA2002C0F49 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		7478EC9822D34259001540D2 /* CopyFrameworkFileList.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = CopyFrameworkFileList.xcfilelist; sourceTree = "<group>"; };
 		74D9D9D122D2CE4100E831B9 /* EmbeddedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmbeddedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D9D9D322D2CE4100E831B9 /* EmbeddedFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedFramework.h; sourceTree = "<group>"; };
@@ -53,8 +55,6 @@
 		74D9D9E522D2E14A00E831B9 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
 		C22098B022CF4D2800353FFC /* CocoapodsCustomLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodsCustomLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22098B322CF4D2800353FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C22098B522CF4D2800353FFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C22098B722CF4D2800353FFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C22098B922CF4D2900353FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C22098BC22CF4D2900353FFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C22098BF22CF4D2900353FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D9D9D822D2CE4100E831B9 /* EmbeddedFramework.framework in Frameworks */,
+				747800A022D40ECD000F6CC0 /* EmbeddedFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				C22098B322CF4D2800353FFC /* AppDelegate.swift */,
-				C22098B522CF4D2800353FFC /* SceneDelegate.swift */,
-				C22098B722CF4D2800353FFC /* ContentView.swift */,
+				746B9C5522D46E95002C0F49 /* ViewController.swift */,
+				746B9C5722D46EA2002C0F49 /* Storyboard.storyboard */,
 				C22098B922CF4D2900353FFC /* Assets.xcassets */,
 				C22098BE22CF4D2900353FFC /* LaunchScreen.storyboard */,
 				C22098C122CF4D2900353FFC /* Info.plist */,
@@ -172,12 +172,12 @@
 				C22098AC22CF4D2800353FFC /* Sources */,
 				C22098AD22CF4D2800353FFC /* Frameworks */,
 				C22098AE22CF4D2800353FFC /* Resources */,
-				74D9D9DA22D2CE4100E831B9 /* Embed Frameworks */,
+				747800A422D40ECD000F6CC0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				74D9D9D722D2CE4100E831B9 /* PBXTargetDependency */,
+				747800A322D40ECD000F6CC0 /* PBXTargetDependency */,
 			);
 			name = CocoapodsCustomLink;
 			productName = CocoapodsCustomLink;
@@ -228,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22098C022CF4D2900353FFC /* LaunchScreen.storyboard in Resources */,
+				746B9C5822D46EA2002C0F49 /* Storyboard.storyboard in Resources */,
 				C22098BD22CF4D2900353FFC /* Preview Assets.xcassets in Resources */,
 				C22098BA22CF4D2900353FFC /* Assets.xcassets in Resources */,
 			);
@@ -272,19 +273,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746B9C5622D46E95002C0F49 /* ViewController.swift in Sources */,
 				C22098B422CF4D2800353FFC /* AppDelegate.swift in Sources */,
-				C22098B622CF4D2800353FFC /* SceneDelegate.swift in Sources */,
-				C22098B822CF4D2800353FFC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		74D9D9D722D2CE4100E831B9 /* PBXTargetDependency */ = {
+		747800A322D40ECD000F6CC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 74D9D9D022D2CE4100E831B9 /* EmbeddedFramework */;
-			targetProxy = 74D9D9D622D2CE4100E831B9 /* PBXContainerItemProxy */;
+			targetProxy = 747800A222D40ECD000F6CC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -320,6 +320,7 @@
 				);
 				INFOPLIST_FILE = EmbeddedFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +358,7 @@
 				);
 				INFOPLIST_FILE = EmbeddedFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -477,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -493,17 +495,20 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "CocoapodsCustomLink/Preview\\ Content";
 				DEVELOPMENT_TEAM = 47ALTKYKM4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CocoapodsCustomLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kotalab.CocoapodsCustomLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -515,17 +520,20 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "CocoapodsCustomLink/Preview\\ Content";
 				DEVELOPMENT_TEAM = 47ALTKYKM4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CocoapodsCustomLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kotalab.CocoapodsCustomLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
